@@ -1,0 +1,273 @@
+.navbar.navbar-inverse
+{
+	background-color: #6cbde3;
+	border: transparent;
+	border-radius: 0;
+}
+
+.navbar-inverse .navbar-nav>li>a
+{
+	color: #FFFFFF;
+	font-weight: 600;
+	font-size: 13px;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover
+{
+	color: #717477;
+	background-color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-nav>.active>a
+{
+	color: #FFFFFF;
+	font-weight: 600;
+	font-size: 13px;
+	/*border-bottom: 2px solid #7C7C7C;*/
+	background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>.active>a
+{
+	color: #717477;
+	background-color: #FFFFFF;
+}
+
+
+.navbar-inverse .navbar-nav>.active>a:hover
+{
+	color: #717477;
+	background-color: #FFFFFF;
+}
+
+#welcome_msg
+{
+	font-family: helvetica;
+	font-size: 18px;
+}
+
+.page_title
+{
+	font-family: helvetica;
+	font-size: 20px;
+	color: #C13035;
+	font-weight: bold;
+}
+
+.nav-tabs>li>a
+{
+	font-family: helvetica;
+	font-size: 16px;
+	padding: 20px;
+	text-align: center;
+	color: #C13035;
+}
+
+.btn.btn-default
+{
+	background-color: #6cbde3;
+	color: #000000;
+	font-size: 16px;
+	border-radius: 0;
+	padding: 10px;
+	font-family: helvetica;
+}
+
+.btn.btn-default.rounded
+{
+	border-radius: 24px;
+
+}
+
+.btn-group .default
+{
+	background-color: black;
+	color: #FFFFFF;
+	font-size: 16px;
+	border-radius: 0;
+	padding: 10px;
+	font-family: helvetica;
+}
+
+.btn.btn-primary.search
+{
+	background-color: #C13035;
+	border: 1px solid transparent;
+}
+
+
+#srch_lead:focus
+{
+	border-color: #a39890;
+  	box-shadow: 0 1px 1px #a39890 inset, 0 0 8px #a39890;
+  	outline: 0 none;
+}
+
+#srch_leads{
+	height: 50px;
+	width: 100px;
+}
+
+#srch_lead
+{
+	height: 50px;
+}
+
+.text_center
+{
+	text-align: center;
+}
+
+.table-responsive
+{
+	overflow-x: visible;
+}
+
+body > div.table-responsive > table > tbody > tr > td:nth-child(1) > div > span > div > ul > li.multiselect-item.multiselect-filter > div > input
+{
+	height: 36px;
+}
+
+body > div.table-responsive > table > tbody > tr > td:nth-child(1) > div > span > div > ul > li.multiselect-item.multiselect-filter > div > span.input-group-btn > button
+{
+	height: 36px;	
+}
+
+body > div.table-responsive > table > tbody > tr > td:nth-child(1) > div > span > div > ul > li.multiselect-item.multiselect-filter > div > span.input-group-addon
+{
+	height: 36px;
+}
+
+button.multiselect.dropdown-toggle.btn.btn-default
+{
+	background-color: transparent;
+	color: #000000;
+	width: 240px;
+	border-radius: 5px;
+}
+
+input.form-control.mutliselect-search
+{
+	height: 50px;
+	padding: 0;
+}
+
+span.input-group-addon
+{
+	height: 36px;
+}
+
+button.btn.btn-default.multiselect-clear-filter
+{
+	height: 36px;
+}
+
+#btnCreateOpp
+{
+	background-color: transparent;
+}
+
+#btnCreateCallLog
+{
+	background-color: transparent;
+}
+
+button.multiselect.dropdown-toggle.btn.btn-default
+{
+	height: 34px;
+	padding: 0;
+}
+
+#login_user_id
+{
+	font-style: italic;
+}
+
+.lblTx
+{
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.multiselect-container {
+        width: 100% !important;
+    }
+
+.panel-default>.panel-heading
+{
+	background-color: #0080c2;
+	color: #FFFFFF;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+.btn.btn-primary.create_user
+{
+	background-color: #0072a1;
+	color: #FFFFFF;
+	border: #5e6264;
+	padding: 10px 25px;
+	width: 100%;
+}
+
+.btn.btn-primary.create_user:hover
+{
+	opacity: 0.8;
+	
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
